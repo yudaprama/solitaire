@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		9655A5221FEB428100A3D404 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9655A5211FEB428100A3D404 /* main.cpp */; };
+		9655A5301FEB4A6600A3D404 /* solitaire.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9655A52F1FEB4A6600A3D404 /* solitaire.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		9655A51C1FEB428100A3D404 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
 			files = (
+				9655A5301FEB4A6600A3D404 /* solitaire.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9655A51E1FEB428100A3D404 /* solitaire */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = solitaire; sourceTree = BUILT_PRODUCTS_DIR; };
 		9655A5211FEB428100A3D404 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9655A52E1FEB4A5500A3D404 /* solitaire.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = solitaire.txt; sourceTree = "<group>"; };
+		9655A52F1FEB4A6600A3D404 /* solitaire.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = solitaire.txt; path = solitaire/solitaire.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +45,10 @@
 		9655A5151FEB428100A3D404 = {
 			isa = PBXGroup;
 			children = (
+				9655A52F1FEB4A6600A3D404 /* solitaire.txt */,
 				9655A5201FEB428100A3D404 /* solitaire */,
 				9655A51F1FEB428100A3D404 /* Products */,
+				9655A5291FEB446100A3D404 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +63,17 @@
 		9655A5201FEB428100A3D404 /* solitaire */ = {
 			isa = PBXGroup;
 			children = (
+				9655A52E1FEB4A5500A3D404 /* solitaire.txt */,
 				9655A5211FEB428100A3D404 /* main.cpp */,
 			);
 			path = solitaire;
+			sourceTree = "<group>";
+		};
+		9655A5291FEB446100A3D404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
