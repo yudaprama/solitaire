@@ -134,7 +134,7 @@ int main(int argc, const char * argv[]) {
 
 
 void List::create(){
-    fptr = fopen("solitaire.txt", "r+");
+    fptr = fopen("./solitaire.txt", "r+");
     if(!fptr){
         cout << "The 'solitaire.txt' file cannot be found. Program will be closed."<< endl;
         getchar();
